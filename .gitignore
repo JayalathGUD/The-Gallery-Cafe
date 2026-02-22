@@ -1,12 +1,12 @@
-﻿# PHP / general
-/vendor/
+﻿# Ignore logs
 *.log
+
+# Ignore environment file (security)
 .env
-uploaded_img/
-project images/
-node_modules/
+
+# Ignore editor configs
 .idea/
 .vscode/
-*.sql
-*.zip
+
+# Windows junk
 Thumbs.db
