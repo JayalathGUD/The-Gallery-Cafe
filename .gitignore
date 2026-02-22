@@ -1,0 +1,12 @@
+﻿# PHP / general
+/vendor/
+*.log
+.env
+uploaded_img/
+project images/
+node_modules/
+.idea/
+.vscode/
+*.sql
+*.zip
+Thumbs.db
