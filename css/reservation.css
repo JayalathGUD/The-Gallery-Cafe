@@ -1,0 +1,137 @@
+Reset some basic elements
+body, h1, h2, h3, h4, h5, h6, p, a, ul, li, div, img, span, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+  body {
+    line-height: 1.5;
+    background: #f5f5f5;
+    color: #333;
+ }
+ 
+ /* Container and layout styles */
+ .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+ }
+ 
+ /* Header styles */
+ header {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+ }
+ 
+ header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+ }
+ 
+ header a:hover {
+    text-decoration: underline;
+ }
+ 
+ /* Heading section styles */
+ .heading {
+    background: #333;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    margin-bottom: 30px;
+ }
+ 
+ .heading h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+ }
+ 
+ .heading p {
+    font-size: 18px;
+ }
+ 
+ .heading a {
+    color: #fff;
+    text-decoration: underline;
+ }
+ 
+ /* Booking section styles */
+ .booking {
+    padding: 50px 0;
+    background: #fff;
+ }
+ 
+ .booking .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ .booking .image {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+ }
+ 
+ .booking .image img {
+    max-width: 100%;
+    border-radius: 10px;
+ }
+ 
+ .booking form {
+    flex: 1;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+ }
+ 
+ .booking h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+ }
+ 
+ .booking .box {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #fff;
+    font-size: 16px;
+ }
+ 
+ .booking .btn {
+    width: 100%;
+    padding: 15px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+ }
+ 
+ .booking .btn:hover {
+    background: #555;
+ }
+ 
+ /* Message box styles */
+ .message {
+    margin: 20px 0;
+    padding: 15px;
+    background: #ffdddd;
+    color: #d8000c;
+    border: 1px solid #d8000c;
+    border-radius: 5px;
+ }
+
+
